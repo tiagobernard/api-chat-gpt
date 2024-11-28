@@ -1,0 +1,41 @@
+#formQuestion {
+    text-align: center;
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+input {
+    width: 350px;
+}
+
+.linhaa {
+   /* border-right: 2px solid rgba(0,0,0.75);
+    color: black;*/
+    font-family: "Special Elite", monospace;
+    white-space: nowrap;
+    font-size: 17px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.digitandoo {animation: /*blinkCursor 500ms infinite normal,*/ typing 3s steps(40) 3s normal both;}
+
+@keyframes typing {
+    from {
+        width:0;
+    }
+    to {
+        width:100%;
+    }
+}
+
+/*@keyframes blinkCursor {
+    form {
+        border-right-color: rgba(0,0,0,0.75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}*/

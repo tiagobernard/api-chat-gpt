@@ -1,5 +1,4 @@
-//const CHATGPT_KEY = "";
-const apikey = process.env.OPENAI_API_KEY;
+const CHATGPT_KEY = ""; // Insira entre as aspas sua OPEN AI KEY
 const consultaChat = async () => {
     let question = document.getElementById('question').value;
     document.getElementById('pergunta').innerHTML = question;
